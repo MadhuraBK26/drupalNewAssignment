@@ -1,0 +1,28 @@
+uuid: 5ab5bec5-9f18-4c09-a9ad-c3230d66b5d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resources
+    - node.type.project
+id: node.project.field_resources
+field_name: field_resources
+entity_type: node
+bundle: project
+label: Resources
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

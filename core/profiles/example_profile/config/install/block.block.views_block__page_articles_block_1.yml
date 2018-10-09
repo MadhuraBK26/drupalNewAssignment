@@ -1,0 +1,30 @@
+uuid: 6baedb5d-94bd-49c9-b0e9-65cdcf857ded
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.page_articles
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__page_articles_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:page_articles-block_1'
+settings:
+  id: 'views_block:page_articles-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /examples/page-example/articles
+    negate: false
+    context_mapping: {  }

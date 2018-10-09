@@ -1,0 +1,25 @@
+uuid: 7005b676-8d5d-4f2c-ba89-54336cc1a569
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.show_author_info
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__show_author_info_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:show_author_info-block_1'
+settings:
+  id: 'views_block:show_author_info-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

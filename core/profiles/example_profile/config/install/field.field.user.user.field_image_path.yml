@@ -1,0 +1,23 @@
+uuid: 27d2cedb-cb63-4fdc-8f51-401ee4e623a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_image_path
+  module:
+    - link
+    - user
+id: user.user.field_image_path
+field_name: field_image_path
+entity_type: user
+bundle: user
+label: 'Image Path'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

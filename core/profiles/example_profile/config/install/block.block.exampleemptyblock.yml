@@ -1,0 +1,28 @@
+uuid: 4fc15269-8cb2-44ed-bccd-35e4f73a0a95
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+    - node
+  theme:
+    - bartik
+id: exampleemptyblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: example_empty
+settings:
+  id: example_empty
+  label: 'Example: empty block'
+  provider: block_example
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

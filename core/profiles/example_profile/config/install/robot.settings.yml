@@ -1,0 +1,3 @@
+enabled: 0
+allowed_agents: Agent11
+disallowed_agents: Agent12

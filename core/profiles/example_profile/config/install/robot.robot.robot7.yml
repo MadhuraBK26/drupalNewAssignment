@@ -1,0 +1,10 @@
+uuid: 7b2f3796-5a3f-4208-8c76-6023b2e50fa7
+langcode: en
+status: true
+dependencies: {  }
+id: robot7
+label: null
+content_type: null
+enabled: true
+allowed_agents: Agent2
+disallowed_agents: Agent3

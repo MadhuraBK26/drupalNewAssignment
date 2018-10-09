@@ -1,0 +1,32 @@
+uuid: 949857e8-c9b3-44b4-a081-a097832cf504
+langcode: en
+status: true
+dependencies:
+  module:
+    - customarticle
+    - node
+  theme:
+    - bartik
+id: customarticleblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: custom_article_block
+settings:
+  id: custom_article_block
+  label: 'Custom Article Block'
+  provider: customarticle
+  label_display: visible
+  my_block_settings: null
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      news_articles: news_articles
+      page: page
+      project: project
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

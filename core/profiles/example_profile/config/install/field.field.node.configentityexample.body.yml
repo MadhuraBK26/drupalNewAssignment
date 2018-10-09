@@ -1,0 +1,22 @@
+uuid: 145e7df2-0dc7-4f39-ae93-c415f7656faf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.configentityexample
+  module:
+    - text
+id: node.configentityexample.body
+field_name: body
+entity_type: node
+bundle: configentityexample
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

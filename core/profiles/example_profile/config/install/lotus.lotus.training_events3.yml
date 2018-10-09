@@ -1,0 +1,9 @@
+uuid: f1f7d65d-0018-4093-a8da-dc3ae0fdfabc
+langcode: en
+status: true
+dependencies: {  }
+id: training_events3
+label: null
+content_type: null
+lid: 3
+placement: Header
