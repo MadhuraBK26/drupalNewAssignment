@@ -1,11 +1,8 @@
-uuid: 342c8003-45d8-4627-92e7-62232a16a340
 langcode: en
 status: true
 dependencies:
   module:
     - event
-_core:
-  default_config_hash: H0IaQ__9X0ltPSZHKj3TRuotkql0abZLitdqnU9JMak
 id: events
 label: Events
 module: views

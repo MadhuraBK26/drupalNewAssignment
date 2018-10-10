@@ -1,4 +1,3 @@
-uuid: 7adbb45f-64f2-44ee-9d7a-94aae763f325
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,6 @@ dependencies:
     - field.field.comment.comment.comment_body
   module:
     - text
-_core:
-  default_config_hash: I0Pa0aQvT_jawlPo9oz4FE3h_ickc55dYKTPl6gILes
 id: comment.comment.default
 targetEntityType: comment
 bundle: comment
